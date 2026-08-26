@@ -17,12 +17,7 @@ This README provides a comprehensive list of basic Git commands to help you mana
 - `git commit -m "[descriptive message]"`: Records the staged snapshots in the version history permanently with a descriptive message.
 - `git diff`: Shows file differences not yet staged.
 
-## 4. Branches
-- `git branch`: Lists all local branches in the current repository. The active branch has an asterisk `*` next to it.
-- `git branch [branch-name]`: Creates a new branch.
-- `git checkout [branch-name]` or `git switch [branch-name]`: Switches to the specified branch and updates the working directory.
-- `git checkout -b [branch-name]` or `git switch -c [branch-name]`: Creates a new branch and immediately switches to it.
-- `git merge [branch]`: Combines the specified branch's history into the current branch.
+
 
 ## 5. Sharing and Updating Projects
 - `git remote add origin [url]`: Connects your local repository to a remote server.
