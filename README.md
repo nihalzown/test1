@@ -10,15 +10,6 @@ This README provides a comprehensive list of basic Git commands to help you mana
 - `git init`: Initializes a new, empty Git repository in the current directory.
 - `git clone [url]`: Downloads an existing project and its entire version history from a remote server (e.g., GitHub, GitLab).
 
-## 3. Making Changes
-- `git status`: Lists all new or modified files to be committed, showing the current state of the working directory and staging area.
-- `git add [file]`: Stages the specified file, preparing it for the next commit.
-- `git add .`: Stages all modified and new files in the current directory.
-- `git commit -m "[descriptive message]"`: Records the staged snapshots in the version history permanently with a descriptive message.
-- `git diff`: Shows file differences not yet staged.
-
-
-
 ## 5. Sharing and Updating Projects
 - `git remote add origin [url]`: Connects your local repository to a remote server.
 - `git push -u origin [branch-name]`: Uploads local repository content to a remote repository and sets the upstream tracking.
